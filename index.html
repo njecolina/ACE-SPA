@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Affordable Care Entertainment - Games, VR, web, video & audio production
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a href="#" class="scroll-to-top">Go Up!</a>
+    <header>
+      <nav>
+        <div class="container">
+          <a href="index.html"><img src="pics/ACElogo.png" alt="ACE LOGO" /></a>
+          <div class="buttons">
+            <a href="#services-highlight" class="button">What We Do?</a>
+            <a href="#services" class="button">About Us</a>
+            <a href="index.html#portfolio" class="button">Portfolio</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="container">
+          <h2>Welcome to ACE!</h2>
+          <img src="pics/reboot3.jpg" alt="ACE on Reboot gaming fair" />
+          <p>
+            Welcome to Affordable Care Entertainment (ACE), a cutting-edge
+            creative studio at the forefront of interactive entertainment and
+            digital media production. With a passion for innovation and a
+            commitment to excellence, ACE specializes in the creation of PC,
+            mobile, and console games, audio and video editing, content
+            production, and captivating websites.
+          </p>
+        </div>
+      </section>
+
+      <section id="services-highlight">
+        <div class="container">
+          <h2>What we do?</h2>
+          <h1 class="rotating-text">
+            <span class="rotating-item">Video Games</span>
+            <span class="rotating-item">Responsive Web</span>
+            <span class="rotating-item">Video and audio editing</span>
+            <span class="rotating-item">VR/AR/XR apps</span>
+          </h1>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <h2>About us</h2>
+          <p>
+            At ACE, our team of talented developers, designers, and artists
+            combine their expertise to craft immersive gaming experiences that
+            transport players to new worlds, challenge their skills, and ignite
+            their imagination. From the thrilling action of adrenaline-pumping
+            shooters to the strategic depth of thought-provoking puzzle games,
+            we bring diverse genres to life, catering to a wide range of
+            audiences and platforms.
+          </p>
+          <img src="pics/reboot4.jpg" alt="ACE on Reboot gaming fair" />
+          <p>
+            Moreover, our expertise extends to web design and development. We
+            build responsive, user-friendly websites that not only showcase your
+            brand but also provide seamless user experiences. From visually
+            stunning designs to intuitive navigation, we ensure that your
+            website leaves a lasting impression on visitors. We are also adept
+            at creating WebGL/HTML5 video games that can be seamlessly
+            integrated into websites, enhancing user engagement and
+            interactivity.
+          </p>
+          <hr/>
+          <p>
+            <br/>Feel free to contact us via:<br/>
+            <a href="mailto:affordablecareentertainment@gmail.com">affordablecareentertainment@gmail.com</a><br/>
+            or via phone:<br/>
+            +385 97 755 24 37
+          </p>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="container">
+          <h2>Portfolio</h2>
+          <p>Check out some of our previous projects on these platforms:</p>
+            <a href="https://store.steampowered.com/search/?developer=Affordable%20Care%20Games&snr=1_5_9__2000" target="_blank" rel="noopener"><img src="pics/steam.png" alt="Steam page"/></a>
+            <a href="https://affordable.itch.io/" target="_blank" rel="noopener"><img src="pics/itchio.png" alt="Itchio page"/></a>
+            <a href="https://play.google.com/store/apps/dev?id=6429611997853742488" target="_blank" rel="noopener"><img src="pics/play.png" alt="Google Play page"/></a>
+            <a href="https://github.com/njecolina" target="_blank" rel="noopener"><img src="pics/github.png" alt="GitHub page"/></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Affordable Care Entertainment. All rights reserved.</p>
+        <hr/>
+        <p>
+            Contact:<br/><a href="mailto:affordablecareentertainment@gmail.com">affordablecareentertainment@gmail.com</a><br/>
+            +385 97 755 24 37
+          </p>
+      </div>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function () {
+          var scrollButton = document.querySelector('.scroll-to-top');
+          if (window.pageYOffset > 200) {
+            scrollButton.classList.add('show');
+          } else {
+            scrollButton.classList.remove('show');
+          }
+        });
+      
+        document.querySelector('.scroll-to-top').addEventListener('click', function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      </script>
+      
+  </body>
+</html>
